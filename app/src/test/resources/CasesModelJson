@@ -1,0 +1,82 @@
+{
+  "Afghanistan":{
+    "All":{
+      "confirmed":69130,
+      "recovered":57119,
+      "deaths":2881,
+      "country":"Afghanistan",
+      "population":35530081,
+      "sq_km_area":652090,
+      "life_expectancy":"45.9",
+      "elevation_in_meters":null,
+      "continent":"Asia",
+      "abbreviation":"AF",
+      "location":"Southern and Central Asia",
+      "iso":4,
+      "capital_city":"Kabul",
+      "lat":"33.93911",
+      "long":"67.709953",
+      "updated":"2021/05/28 16:20:47+00"
+    }
+  },
+  "Albania":{
+    "All":{
+      "confirmed":132264,
+      "recovered":129042,
+      "deaths":2447,
+      "country":"Albania",
+      "population":2930187,
+      "sq_km_area":28748,
+      "life_expectancy":"71.6",
+      "elevation_in_meters":null,
+      "continent":"Europe",
+      "abbreviation":"AL",
+      "location":"Southern Europe",
+      "iso":8,
+      "capital_city":"Tirana",
+      "lat":"41.1533",
+      "long":"20.1683",
+      "updated":"2021/05/28 16:20:47+00"
+    }
+  },
+  "Algeria":{
+    "All":{
+      "confirmed":127926,
+      "recovered":89040,
+      "deaths":3448,
+      "country":"Algeria",
+      "population":41318142,
+      "sq_km_area":2381741,
+      "life_expectancy":"69.7",
+      "elevation_in_meters":800,
+      "continent":"Africa",
+      "abbreviation":"DZ",
+      "location":"Northern Africa",
+      "iso":12,
+      "capital_city":"Alger",
+      "lat":"28.0339",
+      "long":"1.6596",
+      "updated":"2021/05/28 16:20:47+00"
+    }
+  },
+  "Andorra":{
+    "All":{
+      "confirmed":13693,
+      "recovered":13416,
+      "deaths":127,
+      "country":"Andorra",
+      "population":76965,
+      "sq_km_area":468,
+      "life_expectancy":"83.5",
+      "elevation_in_meters":"1,996",
+      "continent":"Europe",
+      "abbreviation":"AD",
+      "location":"Southern Europe",
+      "iso":20,
+      "capital_city":"Andorra la Vella",
+      "lat":"42.5063",
+      "long":"1.5218",
+      "updated":"2021/05/28 16:20:47+00"
+    }
+  }
+}

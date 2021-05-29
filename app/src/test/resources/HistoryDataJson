@@ -1,0 +1,21 @@
+{
+  "All": {
+    "country": "Germany",
+    "population": 82114224,
+    "sq_km_area": 357022,
+    "life_expectancy": "77.4",
+    "elevation_in_meters": 263,
+    "continent": "Europe",
+    "abbreviation": "DE",
+    "location": "Western Europe",
+    "iso": 276,
+    "capital_city": "Berlin",
+    "dates": {
+      "2020-12-25": 29580,
+      "2020-12-24": 29330,
+      "2020-12-23": 28909,
+      "2020-12-22": 28096,
+      "2020-12-21": 27110
+    }
+  }
+}

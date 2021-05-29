@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/sorting_default"
+        android:title="@string/sorting_default"/>
+    <item android:id="@+id/sorting_active"
+        android:title="@string/sorting_by_active"/>
+    <item android:id="@+id/sorting_deaths"
+        android:title="@string/sorting_by_deaths"/>
+    <item android:id="@+id/sorting_active100k"
+        android:title="@string/sorting_by_active100k"/>
+    <item android:id="@+id/sorting_deaths100k"
+        android:title="@string/sorting_by_deaths100k"/>
+</menu>

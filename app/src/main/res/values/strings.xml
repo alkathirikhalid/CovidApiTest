@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CovidApiTest</string>
+    
+    <string name="http_error">Petition failed</string>
+    <string name="http_request_bad_request">Bad request</string>
+    <string name="http_request_io_exception">An error occurred</string>
+    <string name="http_parsing_error">An error occurred parsing the response</string>
+
+    <string name="list_title">Select a country to see more details</string>
+    <string name="list_retry_buton">Retry</string>
+
+    <string name="options_menu_sort">Sort</string>
+    <string name="options_menu_search">Search</string>
+
+    <string name="countries_search_hint">Start to type to search</string>
+
+    <string name="sorting_default">By country</string>
+    <string name="sorting_by_active">By active cases</string>
+    <string name="sorting_by_deaths">By deaths</string>
+    <string name="sorting_by_active100k">By active cases for 100k</string>
+    <string name="sorting_by_deaths100k">By deaths for 100k</string>
+
+    <string name="country_active_cases">Active cases:</string>
+    <string name="country_deaths">Number of deaths:</string>
+    <string name="country_last_update">Date of last update:</string>
+    <string name="country_active_100k">Active cases for 100k hab:</string>
+    <string name="country_deaths_100k">Deaths for 100k hab:</string>
+    <string name="country_chart_title">History of active cases in %s</string>
+</resources>

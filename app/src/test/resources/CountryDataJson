@@ -1,0 +1,18 @@
+{
+  "confirmed": 13693,
+  "recovered": 13416,
+  "deaths": 127,
+  "country": "Andorra",
+  "population": 76965,
+  "sq_km_area": 468,
+  "life_expectancy": "83.5",
+  "elevation_in_meters": "1,996",
+  "continent": "Europe",
+  "abbreviation": "AD",
+  "location": "Southern Europe",
+  "iso": 20,
+  "capital_city": "Andorra la Vella",
+  "lat": "42.5063",
+  "long": "1.5218",
+  "updated": "2021/05/28 16:20:47+00"
+}
