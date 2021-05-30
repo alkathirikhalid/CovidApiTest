@@ -2,10 +2,12 @@ package com.covidapitest.oriolcasas;
 
 import android.util.Pair;
 
+import com.covidapitest.oriolcasas.model.CasesModel;
 import com.covidapitest.oriolcasas.model.CountryData;
 import com.covidapitest.oriolcasas.model.CountryHistory;
 import com.covidapitest.oriolcasas.utils.Comparators;
 import com.covidapitest.oriolcasas.utils.JsonParser;
+import com.covidapitest.oriolcasas.views.CountriesListAdapter;
 import com.google.common.collect.Maps;
 
 import org.json.JSONException;
@@ -319,5 +321,54 @@ public class ApplicationUnitTest {
             assertEquals(entry.second, jsonEntry.second);
             i++;
         }
+    }
+
+    //---- ADAPTER ----//
+
+    @Test
+    public void testCountriesListAdapter_nullObjects() {
+        CountriesListAdapter countriesListAdapter = new CountriesListAdapter(null, null);
+
+        assertEquals(0, countriesListAdapter.getItemCount());
+    }
+
+    @Test
+    public void testCountriesListAdapter_emptyCases() {
+        CasesModel casesModel = new CasesModel();
+        casesModel.setCountriesData(null);
+
+        CountriesListAdapter countriesListAdapter = new CountriesListAdapter(casesModel, null);
+
+        assertEquals(0, countriesListAdapter.getItemCount());
+    }
+
+    @Test
+    public void testCountriesListAdapter_filledCases() {
+        CasesModel casesModel = new CasesModel();
+        Map<String, CountryData> dummyData = new HashMap<>();
+
+        CountryData dummy1 = new CountryData();
+        dummy1.setActiveCases(1);
+        CountryData dummy2 = new CountryData();
+        dummy2.setActiveCases(29);
+        CountryData dummy3 = new CountryData();
+        dummy3.setActiveCases(10);
+        CountryData dummy4 = new CountryData();
+        dummy4.setActiveCases(20);
+        CountryData dummy5 = new CountryData();
+        dummy5.setActiveCases(22);
+        CountryData dummy6 = new CountryData();
+        dummy6.setActiveCases(30);
+        dummyData.put("C", dummy1);
+        dummyData.put("E", dummy2);
+        dummyData.put("A", dummy3);
+        dummyData.put("Z", dummy4);
+        dummyData.put("T", dummy5);
+        dummyData.put("O", dummy6);
+        casesModel.setCountriesData(dummyData);
+
+        CountriesListAdapter countriesListAdapter = new CountriesListAdapter(casesModel, null);
+
+        assertEquals(6, countriesListAdapter.getItemCount());
     }
 }

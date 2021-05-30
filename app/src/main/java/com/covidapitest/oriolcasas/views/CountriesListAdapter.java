@@ -42,7 +42,7 @@ public class CountriesListAdapter extends RecyclerView.Adapter<CountriesListAdap
 
     @Override
     public int getItemCount() {
-        return casesModel.getCountriesData().size();
+        return casesModel != null ? casesModel.getCountriesData().size() : 0;
     }
 
     /**

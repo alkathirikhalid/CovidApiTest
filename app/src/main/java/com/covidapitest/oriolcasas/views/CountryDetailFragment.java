@@ -32,7 +32,7 @@ import java.util.List;
  * The fragment which shows a country details and a chart with the history of its confirmed cases.
  */
 public class CountryDetailFragment extends Fragment implements HistoryPresenter.View {
-    private static final DecimalFormat DOUBLE_DECIMALS = new DecimalFormat("#.00");
+    private static final DecimalFormat DOUBLE_DECIMALS = new DecimalFormat("0.00");
 
     private String countryName;
     private CountryData countryData;

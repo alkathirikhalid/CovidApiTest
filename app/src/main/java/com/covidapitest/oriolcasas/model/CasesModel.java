@@ -1,5 +1,6 @@
 package com.covidapitest.oriolcasas.model;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -9,6 +10,8 @@ public class CasesModel {
     private Map<String, CountryData> countriesData;
 
     public Map<String, CountryData> getCountriesData() {
+        if (countriesData == null)
+            countriesData = new HashMap<>(); // If it's null return empty
         return countriesData;
     }
 
